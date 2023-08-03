@@ -30,3 +30,21 @@
         [7] Hello World
 
 */
+#include <stdio.h>
+int main(){
+    int i;
+    int round;
+    printf("Test case:\n");
+    scanf("%d",&round);
+    if(round%2 == 1){
+        for(i=1; i<=round; i++){
+        printf("[%d] Hello World\n",i);
+        }
+    }
+    else{
+        for(i=1; i<=round; i++){
+        printf("(%d) Hello World\n",i);
+        }
+    }
+    
+}
